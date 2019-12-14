@@ -1,6 +1,6 @@
 {
   "id": 1,
-  "basePath": "http://localhost:8080/api/",
+  "basePath": "http://localhost:8080/chatbot/api/",
   "items": [
     {
       "id": 2,
@@ -13,13 +13,14 @@
           "id": 3,
           "name": "EasyDent Dental Laboratory",
           "containsChildren": false,
-          "apiPath": "/getEasyDent",
+          "apiPath": "/getCaseNumber",
           "text": "Please enter the case number",
           "params": {
             "method": "GET",
             "inputs": [
-              "param1",
-              "param2"
+              "selectedOption",
+              "item",
+              "casenumber"
             ]
           }
         },
@@ -27,13 +28,14 @@
           "id": 4,
           "name": "Knight Dental Group",
           "containsChildren": false,
-          "apiPath": "/getEasyDent",
+          "apiPath": "/getCaseNumber",
           "text": "Please enter the case number",
           "params": {
             "method": "GET",
             "inputs": [
-              "param1",
-              "param2"
+              "selectedOption",
+              "item",
+              "casenumber"
             ]
           }
         },
@@ -41,13 +43,14 @@
           "id": 5,
           "name": "YORK Dental Laboratory",
           "containsChildren": false,
-          "apiPath": "/getEasyDent",
+          "apiPath": "/getCaseNumber",
           "text": "Please enter the case number",
           "params": {
             "method": "GET",
             "inputs": [
-              "param1",
-              "param2"
+              "selectedOption",
+              "item",
+              "casenumber"
             ]
           }
         }
