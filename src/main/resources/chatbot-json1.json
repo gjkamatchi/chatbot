@@ -1,0 +1,71 @@
+{
+  "id": 1,
+  "basePath": "http://localhost:8080/api/",
+  "items": [
+    {
+      "id": 2,
+      "name": "Check Case Status",
+      "containsChildren": true,
+      "apiPath": "",
+      "text": "Please select the below option",
+      "options": [
+        {
+          "id": 3,
+          "name": "EasyDent Dental Laboratory",
+          "containsChildren": false,
+          "apiPath": "/getEasyDent",
+          "text": "Please enter the case number",
+          "params": {
+            "method": "GET",
+            "inputs": [
+              "param1",
+              "param2"
+            ]
+          }
+        },
+        {
+          "id": 4,
+          "name": "Knight Dental Group",
+          "containsChildren": false,
+          "apiPath": "/getEasyDent",
+          "text": "Please enter the case number",
+          "params": {
+            "method": "GET",
+            "inputs": [
+              "param1",
+              "param2"
+            ]
+          }
+        },
+        {
+          "id": 5,
+          "name": "YORK Dental Laboratory",
+          "containsChildren": false,
+          "apiPath": "/getEasyDent",
+          "text": "Please enter the case number",
+          "params": {
+            "method": "GET",
+            "inputs": [
+              "param1",
+              "param2"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Raise a Ticket",
+      "containsChildren": false,
+      "apiPath": "/createTicket",
+      "text": "Please Enter Case Number",
+      "params": {
+        "method": "POST",
+        "inputs": [
+          "",
+          ""
+        ]
+      }
+    }
+  ]
+}
